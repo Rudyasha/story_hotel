@@ -9,9 +9,9 @@
 ## tc-01. открытие всех чемоданов при достаточном количестве ключей {#tc-01}
 
 <div class="case-tags">
-<span class="case-tag priority">приоритет: p1 (high)</span>
-<span class="case-tag positive">тип: positive, functional</span>
-<span class="case-tag neutral">уровень: e2e</span>
+<span class="case-tag priority">p1 (high)</span>
+<span class="case-tag positive">positive, functional</span>
+<span class="case-tag neutral">e2e</span>
 </div>
 
 **предусловия:**
@@ -41,9 +41,9 @@
 ## tc-02. открытие всех чемоданов через покупку недостающих ключей {#tc-02}
 
 <div class="case-tags">
-<span class="case-tag priority">приоритет: p0 (critical)</span>
-<span class="case-tag positive">тип: positive, payment integration</span>
-<span class="case-tag neutral">уровень: e2e</span>
+<span class="case-tag priority">p0 (critical)</span>
+<span class="case-tag positive">positive, payment integration</span>
+<span class="case-tag neutral">e2e</span>
 </div>
 
 **предусловия:**
@@ -75,9 +75,9 @@
 ## tc-03. отмена покупки недостающих ключей {#tc-03}
 
 <div class="case-tags">
-<span class="case-tag priority">приоритет: p1 (high)</span>
-<span class="case-tag negative">тип: negative, payment</span>
-<span class="case-tag neutral">уровень: e2e</span>
+<span class="case-tag priority">p1 (high)</span>
+<span class="case-tag negative">negative, payment</span>
+<span class="case-tag neutral">e2e</span>
 </div>
 
 **предусловия:**
@@ -105,9 +105,9 @@
 ## tc-04. открытие оставшихся чемоданов на частично открытом поле {#tc-04}
 
 <div class="case-tags">
-<span class="case-tag priority">приоритет: p1 (high)</span>
-<span class="case-tag positive">тип: positive, boundary</span>
-<span class="case-tag neutral">уровень: functional</span>
+<span class="case-tag priority">p1 (high)</span>
+<span class="case-tag positive">positive, boundary</span>
+<span class="case-tag neutral">functional</span>
 </div>
 
 **предусловия:**
@@ -136,9 +136,9 @@
 ## tc-05. повторное выполнение запроса «открыть все» {#tc-05}
 
 <div class="case-tags">
-<span class="case-tag priority">приоритет: p0 (critical)</span>
-<span class="case-tag negative">тип: negative, api, concurrency</span>
-<span class="case-tag neutral">уровень: integration</span>
+<span class="case-tag priority">p0 (critical)</span>
+<span class="case-tag negative">negative, api, concurrency</span>
+<span class="case-tag neutral">integration</span>
 </div>
 
 **предусловия:**
