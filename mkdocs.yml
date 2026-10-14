@@ -1,0 +1,52 @@
+site_name: Story Hotel · QA
+site_description: Чек-листы монетизации, вопросы к аналитику, функциональные тест-кейсы и баг-репорты Story Hotel
+site_url: https://rudyasha.github.io/story_hotel/
+repo_url: https://github.com/Rudyasha/story_hotel
+repo_name: Rudyasha/story_hotel
+theme:
+  name: material
+  language: ru
+  font: false
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.footer
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+nav:
+  - Обзор: index.md
+  - 1. Чек-листы по монетизации: monetization.md
+  - 2. Вопросы к аналитику: analyst-questions.md
+  - 3. Тест-кейсы по функционалу: test-cases.md
+  - 4. Баг-репорты: bug-reports.md
+plugins:
+  - search:
+      lang: ru
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+extra_css:
+  - assets/styles.css

@@ -1,0 +1,91 @@
+name: Баг-репорт
+description: Найденный дефект Story Hotel со шагами и доказательствами
+title: "[BUG] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Опишите наблюдаемый дефект. Удалите персональные данные, платёжные реквизиты и токены из вложений.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Окружение
+      description: Версия и build игры, устройство, ОС, backend-стенд, регион магазина, локаль и сеть.
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Критичность
+      options:
+        - Требует оценки
+        - Blocker
+        - Critical
+        - Major
+        - Minor
+        - Trivial
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Приоритет
+      options:
+        - Требует оценки
+        - P0
+        - P1
+        - P2
+    validations:
+      required: true
+  - type: textarea
+    id: preconditions
+    attributes:
+      label: Предусловия и тестовые данные
+      description: Баланс, состояние ивента и поля, лот, бонусы, сценарий sandbox-платежа.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги воспроизведения
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Фактический результат
+      description: Что произошло, включая баланс до/после и состояние операции.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемый результат и требование
+      description: Как должно работать; ссылка на согласованное правило или открытый вопрос к аналитику.
+    validations:
+      required: true
+  - type: input
+    id: reproducibility
+    attributes:
+      label: Воспроизводимость
+      placeholder: Например, 3 воспроизведения из 3 попыток
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Влияние и обходной путь
+      description: Последствия для игрока и обоснование критичности.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Доказательства и связи
+      description: Скриншот/видео, время с часовым поясом, обезличенные логи, ID операции и ссылка на TC/MON. Если данные недоступны, укажите это.
+    validations:
+      required: true
