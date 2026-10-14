@@ -8,7 +8,11 @@
 
 ## tc-01. открытие всех чемоданов при достаточном количестве ключей {#tc-01}
 
-**приоритет:** p1 (high) **тип:** positive, functional **уровень:** e2e
+<div class="case-tags">
+<span class="case-tag priority">приоритет: p1 (high)</span>
+<span class="case-tag positive">тип: positive, functional</span>
+<span class="case-tag neutral">уровень: e2e</span>
+</div>
 
 **предусловия:**
 
@@ -36,7 +40,11 @@
 
 ## tc-02. открытие всех чемоданов через покупку недостающих ключей {#tc-02}
 
-**приоритет:** p0 (critical) **тип:** positive, payment integration **уровень:** e2e
+<div class="case-tags">
+<span class="case-tag priority">приоритет: p0 (critical)</span>
+<span class="case-tag positive">тип: positive, payment integration</span>
+<span class="case-tag neutral">уровень: e2e</span>
+</div>
 
 **предусловия:**
 
@@ -66,7 +74,11 @@
 
 ## tc-03. отмена покупки недостающих ключей {#tc-03}
 
-**приоритет:** p1 (high) **тип:** negative, payment **уровень:** e2e
+<div class="case-tags">
+<span class="case-tag priority">приоритет: p1 (high)</span>
+<span class="case-tag negative">тип: negative, payment</span>
+<span class="case-tag neutral">уровень: e2e</span>
+</div>
 
 **предусловия:**
 
@@ -92,7 +104,11 @@
 
 ## tc-04. открытие оставшихся чемоданов на частично открытом поле {#tc-04}
 
-**приоритет:** p1 (high) **тип:** positive, boundary **уровень:** functional
+<div class="case-tags">
+<span class="case-tag priority">приоритет: p1 (high)</span>
+<span class="case-tag positive">тип: positive, boundary</span>
+<span class="case-tag neutral">уровень: functional</span>
+</div>
 
 **предусловия:**
 
@@ -119,7 +135,11 @@
 
 ## tc-05. повторное выполнение запроса «открыть все» {#tc-05}
 
-**приоритет:** p0 (critical) **тип:** negative, api, concurrency **уровень:** integration
+<div class="case-tags">
+<span class="case-tag priority">приоритет: p0 (critical)</span>
+<span class="case-tag negative">тип: negative, api, concurrency</span>
+<span class="case-tag neutral">уровень: integration</span>
+</div>
 
 **предусловия:**
 
