@@ -1,0 +1,7 @@
+00:26:41.939744 storekitd
+AMSErrorDomain Code=6
+"Payment Sheet Failed Payment sheet dismissed with neither an error nor a result"
+
+00:26:41.986742 DoormanStory
+Payment completed with error:
+SKInternalErrorDomain Code=13
