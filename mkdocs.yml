@@ -1,8 +1,8 @@
-site_name: Story Hotel · QA
-site_description: Чек-листы монетизации, вопросы к аналитику, функциональные тест-кейсы и баг-репорты Story Hotel
+site_name: Тестовое задание
+site_description: Тестовое задание - чек-листы монетизации, вопросы к аналитику, функциональные тест-кейсы и баг-репорты
 site_url: https://rudyasha.github.io/story_hotel/
 repo_url: https://github.com/Rudyasha/story_hotel
-repo_name: Rudyasha/story_hotel
+repo_name: Тестовое задание
 theme:
   name: material
   language: ru

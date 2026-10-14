@@ -155,8 +155,25 @@ SKInternalErrorDomain Code=13
 
 ### вложения
 
-- скриншоты кнопок с некорректным выравниванием
-- скриншоты с выделенными границами кнопок и центрами элементов
-- дизайн-макеты для сравнения, если доступны
+<figure class="bug-attachment" markdown="1">
+
+[![Кнопки Play и Save progress на главном экране](assets/images/bug-03-main-menu.png)](assets/images/bug-03-main-menu.png)
+
+<figcaption>Кнопки Play и Save progress на главном экране</figcaption>
+</figure>
+
+<figure class="bug-attachment" markdown="1">
+
+[![Иконки кристаллов и текст в карточках магазина](assets/images/bug-03-crystal-store.png)](assets/images/bug-03-crystal-store.png)
+
+<figcaption>Иконки кристаллов и текст в карточках магазина</figcaption>
+</figure>
+
+<figure class="bug-attachment" markdown="1">
+
+[![Кнопка выбора языка EN](assets/images/bug-03-language-button.png)](assets/images/bug-03-language-button.png)
+
+<figcaption>Кнопка выбора языка EN</figcaption>
+</figure>
 
 </div>

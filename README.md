@@ -1,8 +1,8 @@
-# Story Hotel · QA
+# Тестовое задание
 
 QA-документация по монетизации и механике ивента «Ключи / Открыть все». Оформление продолжает стиль [Todo](https://rudyasha.github.io/to_do_tz/) и [разбора инцидента](https://rudyasha.github.io/incident/): Material for MkDocs, русский поиск, светлая и тёмная темы.
 
-**Сайт:** [Story Hotel · QA](https://rudyasha.github.io/story_hotel/)
+**Сайт:** [Тестовое задание](https://rudyasha.github.io/story_hotel/)
 
 ## Разделы
 

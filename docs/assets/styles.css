@@ -33,6 +33,10 @@
 .md-typeset .case-tag.priority { color: #765005; background: #fff0ce; }
 .md-typeset .case-tag.neutral { color: #285c83; background: #e8f1fb; }
 .md-typeset .bug-report { border-top: 3px solid #ba5961; }
+.md-typeset .bug-attachment { margin: 1rem 0; padding: .8rem; border: 1px solid var(--md-default-fg-color--lightest); border-radius: 10px; }
+.md-typeset .bug-attachment p { margin: 0; }
+.md-typeset .bug-attachment img { display: block; max-width: 100%; height: auto; margin: 0 auto; border-radius: 6px; }
+.md-typeset .bug-attachment figcaption { max-width: none; margin: .6rem 0 0; color: var(--md-default-fg-color--light); font-size: .7rem; font-style: normal; }
 .md-typeset .result-panel { padding: .8rem 1rem; margin: 1rem 0; border-radius: 8px; border-left: 3px solid; }
 .md-typeset .result-panel h3 { margin-top: 0; }
 .md-typeset .result-panel > :last-child { margin-bottom: 0; }
