@@ -27,6 +27,6 @@ python3 -m venv .venv
 
 ## Редактирование и публикация
 
-Тексты — в `docs/`, навигация — в `mkdocs.yml`, стили — в `docs/assets/styles.css`. Форма нового дефекта — в `.github/ISSUE_TEMPLATE/bug-report.yml`.
+Тексты - в `docs/`, навигация - в `mkdocs.yml`, стили - в `docs/assets/styles.css`. Форма нового дефекта - в `.github/ISSUE_TEMPLATE/bug-report.yml`.
 
-GitHub Actions собирает и публикует документацию после push в `main`. Источник публикации в **Settings → Pages** — **GitHub Actions**.
+GitHub Actions собирает и публикует документацию после push в `main`. Источник публикации в **Settings → Pages** - **GitHub Actions**.
