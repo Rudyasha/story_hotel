@@ -29,8 +29,7 @@ theme:
     - search.suggest
     - content.code.copy
 nav:
-  - Обзор: index.md
-  - 1. Чек-листы по монетизации: monetization.md
+  - 1. Чек-листы по монетизации: index.md
   - 2. Вопросы к аналитику: analyst-questions.md
   - 3. Тест-кейсы по функционалу: test-cases.md
   - 4. Баг-репорты: bug-reports.md
